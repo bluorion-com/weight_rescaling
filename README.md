@@ -23,7 +23,7 @@ Our code is built within the [PyTorch Lightning](https://lightning.ai/docs/pytor
 
 ![Layer index rescaling formula](figures/layer_index_rescaling_formula.png)
 
-, where `l` is the layer index. The code for LIR can be found in [patches/initialization.py](https://github.com/bluorion-com/weight_rescaling/weight_rescaling/patches/initialization.py)
+, where `l` is the layer index. The code for LIR can be found in [patches/initialization.py](weight_rescaling/patches/initialization.py)
 
 ### Example Usage
 
@@ -70,7 +70,7 @@ re_initialize_model(model, # HF class model; GPT2LMHeadModel
 
 ![Target variance rescaling formula](figures/target_variance_rescaling_formula.png)
 
-The code for TVR can be found in [callbacks/tvr.py](https://github.com/bluorion-com/weight_rescaling/weight_rescaling/callbacks/tvr.py)
+The code for TVR can be found in [callbacks/tvr.py](weight_rescaling/callbacks/tvr.py)
 
 ### Example Usage for TVR
 
