@@ -8,7 +8,7 @@ Official PyTorch Lightning implementation of our paper:
 
 BluOrion
 
-[Paper](#)
+[Paper](https://arxiv.org/abs/2503.17500)
 
 ![poster](figures/poster.png)
 
@@ -110,5 +110,13 @@ trainer = pl.Trainer(
 
 ## Citation
 ```
-
+@misc{owen2025variancecontrolweightrescaling,
+      title={Variance Control via Weight Rescaling in LLM Pre-training}, 
+      author={Louis Owen and Abhay Kumar and Nilabhra Roy Chowdhury and Fabian Güra},
+      year={2025},
+      eprint={2503.17500},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2503.17500}, 
+}
 ```
