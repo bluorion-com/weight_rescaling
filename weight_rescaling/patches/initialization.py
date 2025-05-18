@@ -8,7 +8,7 @@ def re_initialize_model(
     initializer_range: float = 0.02,
     scale_with_depth: bool = False,
     scale_factor: float = 1.0,
-    special_init_residual_module_names: list[str] | None =None,
+    special_init_residual_module_names: list[str] | None = None,
     nlayer_config_name: str = "num_hidden_layers",
 ):
     """
